@@ -144,7 +144,41 @@
 			
 				background-color:#E9ECEF;
 				border:2px solid #E9ECEF;
-				margin-left:20px;	
+				margin-left:20px;
+				transition: transform .2s;
+			
+			
+				
+			
+			}
+			
+			.card:hover {
+			
+					-ms-transform: scale(1.05); /* IE 9 */
+					-webkit-transform: scale(1.05); /* Safari 3-8 */
+						transform: scale(1.05); 
+			
+			}
+			
+			
+			
+			
+			
+			img 	{
+					pointer-events: none;
+				}
+			
+		
+			.breadcrumb {
+			
+				text-align:center;
+				font-weight:bold;
+				font-family: anton,sans-serif;
+				padding-left:20px;
+				background-color:none;
+				font-size:20px;
+				
+				
 			
 			}
 		
@@ -290,6 +324,14 @@
 		</div>
 	</div>
 		
+		
+ 	<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Flowers</li>
+					</ol>
+			</nav>
+	
 		
 <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
 	
